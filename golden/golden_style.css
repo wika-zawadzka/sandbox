@@ -1,0 +1,387 @@
+body {
+	width:1400px;
+	margin: 0 auto;
+	position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.row {
+
+	margin:0 auto;
+}
+
+@media screen and (min-device-width: 1367px) {
+.header {
+	width:100%;
+	box-sizing: border-box;
+	height:700px;
+	
+	
+	background-image: url(header.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
+}
+
+.header h1{
+
+	text-align: center;
+	font-size: 70px;
+	font-family:Helvetica;
+	font-weight: bold;
+	color:white;
+	margin-top: 0px;
+
+
+}
+
+.header h2{
+	margin-top: 211px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: Lucida;
+	font-size: 42px;
+	font-style:italic;
+	color:white;
+}
+
+body{
+
+	background-color:white;
+
+}
+
+.logo {
+
+	padding-top:42.3px;
+	padding-left:238px; 
+	float: left;
+	position: ;
+}
+}
+
+@media screen and (min-device-width: 1367px) {
+
+div#menu{
+	width:450px;
+	height: 14px;
+	margin-top: 42.3
+	margin-left: 689px;
+	
+	font-size: 14px;
+	color:white;
+	background: transparent;
+	display: inline;
+
+}
+
+div#menu li {
+
+	display: inline;
+	width: auto;
+	float: right;
+	font-size: 14px;
+	color:white;
+
+}
+
+div#menu li:hover {
+
+	
+	
+	font-size: 14px;
+	color:white;
+	border: solid 1px grey;
+	background-color: grey;
+	border-radius: 2px;
+}
+
+div#menu ul {
+	padding-top: 53px;
+	padding-right: 230px;
+}
+div#menu a {
+
+	font-size: 14px;
+	color:white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}
+.button {
+
+	background-color: #FFCC33;
+	border-radius: 3px;
+	border-color: #FFCC33;
+	font-family:Helvetica;
+	font-weight: bold;
+	color:white;
+	margin:50px auto;
+	
+	
+	text-align: center;
+	height: 65px;
+	width:240px;
+	display: block;
+	
+
+}
+}
+@media screen and (min-device-width: 1367px)
+{
+.services {
+
+	
+
+	margin: auto;
+	width:100%;
+
+	background-color: white;
+	height:100%;
+	clear:both ;
+	margin: auto;
+	display: block;
+	text-align: center;
+
+}
+
+.services h1 {
+
+	font-family:Helvetica;
+	font-weight: bold;
+	color:black;
+	font-size: 38px;
+	text-align: center;
+}
+
+.services h2 {
+
+	font-family: "Myriad Pro";
+	font-style: italic;
+	color:#85888C;
+	font-size: 24px;
+	text-align: center;
+
+}
+
+#kolumna_1 {
+
+width:350px;
+
+
+}
+
+#ikonka {
+
+	padding-top: 60px;
+
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: ;
+    background-color: white;
+    padding-bottom: 120px;
+   
+}
+
+.flex-item  {
+   
+    width: 350px;
+    height: ;
+   
+    padding:0 25px;
+ 
+}
+
+
+
+/*for 980px or less*/
+
+/*@media screen and (max-width: 980px) {
+
+
+
+
+	.services {
+
+		height: 100%;
+
+	}
+
+
+	#pagewrap {
+
+		width:94%;
+		margin:0 auto;
+	}
+
+
+	#kolumna_1 {
+
+		width: 200px;
+		padding: 1% 4%;
+		float: left;
+
+	}
+
+	#kolumna_2 {
+
+		float:left;
+		width: 200px;
+		padding:15px;
+	}
+
+	#kolumna_3 {
+
+		width: 200px;
+		float: left;
+		padding:15px;
+	}
+
+}
+*/
+
+/*for 700px or less*/
+/*
+@media screen and (max-width: 600px) {
+
+	#pagewrap {
+
+		width:94%;
+		margin:0 auto;
+	}
+
+
+	#kolumna_1 {
+
+		width: auto;
+		padding: 1% 4%;
+
+	}
+
+	#kolumna_2 {
+
+		float:none;
+		width:auto;
+		padding: 1% 4%;
+	}
+
+	#kolumna_3 {
+
+		width: auto;
+		float:none;
+		padding: 1% 4%;
+	}
+
+}
+
+
+
+*/
+
+/*for 980px or less*/
+
+/*@media screen and (max-width: 480px) {
+
+	#pagewrap {
+
+		width:100%;
+		margin:0 auto;
+
+	}
+
+
+	#kolumna_1 {
+
+		width: 41%;
+		padding: 1% 4%;
+
+	}
+
+	#kolumna_2 {
+
+		float:right;
+		width: 41%;
+		padding: 1% 4%;
+	}
+
+	#kolumna_3 {
+
+		width: auto;
+		float:none;
+		padding: 1% 4%;
+	}
+*/
+
+/*our portfolio*/
+@media screen and (min-device-width: 1367px) {
+.portfolio {
+	margin: auto;
+	width:100%;
+	padding-bottom: 80px;
+	background-color: #E6E3DD;
+	height:100%;
+	clear:both ;
+	margin: auto;
+	display: block;
+	text-align: center;
+
+	}
+.portfolio h1{
+
+	
+	font-family:Helvetica;
+	font-weight: bold;
+	color:black;
+	font-size: 38px;
+	text-align: center;
+	padding-top:25px;
+}
+
+
+
+
+.column-left{
+
+width:290px;
+text-align: center;
+display: inline;
+margin:60px 25px 60px 25px;
+
+  
+
+}
+.column-right{ 
+	width:290px;
+	text-align: center;
+	display: inline;
+	margin:60px 25px 60px 25px;
+
+	  }
+.column-center{ 
+	text-align: center;
+	display: inline;
+	margin:60px 25px 60px 25px;
+	 width:290px;
+	 
+	  }
+
+
+.clearfix{
+
+	overflow: auto;
+}
+}
