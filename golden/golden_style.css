@@ -371,21 +371,37 @@ width:350px;
    
 }
 
+.flex-item2  {
+   
+    width: 290px;
+    height: ;
+   
+    padding:0 15px;
+ 
+}
+
 div.desc {
     
     text-align: center;
     background-color: white;
-    width: 290px;
-    margin:0 ;
+    width:auto;;
+    margin:0 0 ;
     padding-bottom: 10px; 
 }
 
 div.gallery {
 
-	margin:0;
-	width:290px;
+	margin:0px;
+	padding:0px;
+	
 	background-color: white;
 }
+
+div.gallery img {
+
+	text-align: center;
+}
+
 
 div.desc >h4 {
 	font-family:Helvetica;
