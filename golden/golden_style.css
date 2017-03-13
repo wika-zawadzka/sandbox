@@ -189,8 +189,8 @@ width:350px;
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
     width: 100%;
     height: ;
     background-color: white;
@@ -361,8 +361,8 @@ width:350px;
 .flex-container2{
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
     width: 100%;
     height: ;
     background-color:;
