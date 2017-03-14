@@ -114,6 +114,27 @@ div#menu{
 
 }
 
+
+
+@media screen and (max-width: 900px) {
+
+.flex-item_logo{
+	width:20%;
+	height: 14px;
+	margin-top: 42.3px;
+}
+
+.flex-item_menu{
+	display: block;
+	width:80%;
+	height: 14px;
+	margin-top: 53px;
+
+}
+
+
+
+}
 div#menu li {
 
 	display: inline;
@@ -168,8 +189,7 @@ div#menu a {
 
 }
 }
-@media screen and (min-device-width: 1367px)
-{
+
 .services {
 
 	
@@ -470,9 +490,83 @@ div.portfolio >h2 {
 
 
 }
-
+/*div about us*/
 .about_us {
 
 
 	background-color: white;
+}
+
+
+.about_us h2 {
+
+	font-family: "Myriad Pro";
+	font-style: italic;
+	color:#85888C;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.about_us h3 {
+
+	font-family:Helvetica;
+	font-weight: bold;
+	color:black;
+	font-size: 16px;
+	text-align: right;
+	margin-bottom: 10px;
+
+
+
+}
+
+.flex-item3 , .flex-item4  {
+   
+    width: 290px;
+   text-align: center;
+   margin-right:20px;
+   margin-left: 20px;
+  
+ 
+}
+div.info{
+
+	width: 290px;
+	padding: 10px;
+	text-align: right;
+}
+.flex-container3{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content:center;
+    width: 100%;
+    height: ;
+    background-color:;
+
+  
+    
+}
+
+
+.flex-item3#empty,.flex-item4#empty:empty{
+	
+	background-color: white;
+	width:290px;
+
+}
+
+.line_2,.line_3, .line_4, .line_5{
+
+
+	display: flex;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content:center;
+    width: 100%;
+    height: ;
+    background-color:;
+    padding-bottom: 45px;
 }
