@@ -1,47 +1,74 @@
+/*reset css*/
 * {
-margin: 0;
-padding: 0;
-border: 0;
-line-height: 1.4em;
-vertical-align: baseline;
-text-decoration: none;
-outline: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1.4em;
+	vertical-align: baseline;
+	text-decoration: none;
+	outline: 0;
+	box-sizing: border-box;
+
 }
 
 
+html {
 
+	background-color: black;
+}
 body {
-	width:1400px;
+	width:1400px; 
 	margin: 0 auto;
 	position: relative;
-    width: 100%;
-    min-height: 100%;
+    /* width: 100%; */
+   min-height
     margin: 0;
     padding: 0;
+    /* width: 80%; */
+    margin: 0 auto;
+    background-color:white;
 
 }
 
+img{
 
-@media screen and (min-device-width: 1367px) {
+	max-width:100%;
+}
 .header {
-	width:100%;
-	box-sizing: border-box;
-	height:1000px;
-	
-	
-	background-image: url(header.jpg);
-	background-size: 100% 100%;
+
+ 	background-image: url(header.jpg);
+	background-size: cover; /* na cala szerokosc diva */
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: white;
 	background-position: center;
+	/* height: 1000px;  */
+	height: 100%; /* w px nie mescil sie przycisk. 100% od...? */
+}
+.nav {
+	width: 100%;
+    margin: 0 auto;
+	box-sizing: border-box;
+	height:50px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+   
 }
 
 
 .naglowek_header {
+	
+	/* margin:0 auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around; */
+    width: 100%;
+    
 
-	margin:0 auto;
 }
-.header h1{
+.naglowek_header h1{
 
 	text-align: center;
 	font-size: 70px;
@@ -54,7 +81,7 @@ body {
 
 }
 
-.header h2{
+.naglowek_header h2{
 	margin-top: 211px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -64,88 +91,54 @@ body {
 	color:white;
 }
 
-body{
 
-	background-color:white;
-
-}
 
 img.logo {
 
 	
-	padding-left:238px; 
+	/* padding-left:235px;  */
+	 
 	float: left;
 	position: ;
 }
-}
 
-@media screen and (min-device-width: 1367px) {
 
-div#menu{
-	display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-    width: 100%;
-    height: ;
-    padding-bottom: 200px;
-	/*width:450px;
-	height: 14px;
-	margin-top: 42.3
-	margin-left: 689px;
-	
-	font-size: 14px;
-	color:white;
-	background: transparent;*/
-	display: flex;
+ 
 
-}
+
 
 .flex-item_logo{
-	width:50%;
+	width:50%; 
 	height: 14px;
-	margin-top: 42.3px;
+	margin: 44px 0 0 235px;
 }
 
 .flex-item_menu{
-	width:50%;
+	width:50%; 
 	height: 14px;
-	margin-top: 53px;
+	margin-top: 44px  ;
+	float:right;
 
 }
 
 
 
-@media screen and (max-width: 900px) {
-
-.flex-item_logo{
-	width:20%;
-	height: 14px;
-	margin-top: 42.3px;
-}
-
-.flex-item_menu{
-	display: block;
-	width:80%;
-	height: 14px;
-	margin-top: 53px;
-
-}
 
 
 
-}
-div#menu li {
+
+
+
+div.flex-item_menu li {
 
 	display: inline;
 	width: auto;
-	float:;
 	font-size: 14px;
 	color:white;
 
 }
 
-div#menu li:hover {
+div.flex-item_menu li:hover {
 
 	
 	
@@ -158,9 +151,9 @@ div#menu li:hover {
 
 div#menu ul {
 	
-	padding-right: 230px;
+	/*padding-right: 230px;*/
 }
-div#menu a {
+div.flex-item_menu a {
 
 	font-size: 14px;
 	color:white;
@@ -178,9 +171,9 @@ div#menu a {
 	font-family:Helvetica;
 	font-weight: bold;
 	color:white;
-	margin:50px auto;
-	
-	margin-bottom: 100px;
+	margin:100px auto;
+	cursor: pointer;
+	/* margin-bottom: 100px; */
 	text-align: center;
 	height: 65px;
 	width:240px;
@@ -188,7 +181,7 @@ div#menu a {
 	
 
 }
-}
+
 
 .services {
 
@@ -245,8 +238,8 @@ width:350px;
     display: flex;
     -webkit-justify-content: space-around;
     justify-content: space-around;
-    width: 100%;
-    height: ;
+    width: 80%;
+    margin: 0 auto;
     background-color: white;
     padding-bottom: 120px;
 
@@ -255,7 +248,7 @@ width:350px;
 
 .flex-item  {
    
-    width: 350px;
+    width: 33%;
     height: ;
    
     padding:0 15px;
@@ -264,123 +257,7 @@ width:350px;
 
 
 
-/*for 980px or less*/
 
-/*@media screen and (max-width: 980px) {
-
-
-
-
-	.services {
-
-		height: 100%;
-
-	}
-
-
-	#pagewrap {
-
-		width:94%;
-		margin:0 auto;
-	}
-
-
-	#kolumna_1 {
-
-		width: 200px;
-		padding: 1% 4%;
-		float: left;
-
-	}
-
-	#kolumna_2 {
-
-		float:left;
-		width: 200px;
-		padding:15px;
-	}
-
-	#kolumna_3 {
-
-		width: 200px;
-		float: left;
-		padding:15px;
-	}
-
-}
-*/
-
-/*for 700px or less*/
-/*
-@media screen and (max-width: 600px) {
-
-	#pagewrap {
-
-		width:94%;
-		margin:0 auto;
-	}
-
-
-	#kolumna_1 {
-
-		width: auto;
-		padding: 1% 4%;
-
-	}
-
-	#kolumna_2 {
-
-		float:none;
-		width:auto;
-		padding: 1% 4%;
-	}
-
-	#kolumna_3 {
-
-		width: auto;
-		float:none;
-		padding: 1% 4%;
-	}
-
-}
-
-
-
-*/
-
-/*for 980px or less*/
-
-/*@media screen and (max-width: 480px) {
-
-	#pagewrap {
-
-		width:100%;
-		margin:0 auto;
-
-	}
-
-
-	#kolumna_1 {
-
-		width: 41%;
-		padding: 1% 4%;
-
-	}
-
-	#kolumna_2 {
-
-		float:right;
-		width: 41%;
-		padding: 1% 4%;
-	}
-
-	#kolumna_3 {
-
-		width: auto;
-		float:none;
-		padding: 1% 4%;
-	}
-*/
 
 /*our portfolio*/
 
@@ -427,7 +304,7 @@ width:350px;
 
 .flex-item2  {
    
-    width: 290px;
+    width: 23%;
     height: ;
    
     padding:0 15px;
@@ -449,11 +326,13 @@ div.gallery {
 	padding:0px;
 	
 	background-color: white;
+	text-align: center;
 }
 
 div.gallery img {
 
 	text-align: center;
+	width: auto;
 }
 
 
@@ -523,7 +402,7 @@ div.portfolio >h2 {
 
 .flex-item3 , .flex-item4  {
    
-    width: 290px;
+   width: 28%;
    text-align: center;
    margin-right:20px;
    margin-left: 20px;
@@ -532,29 +411,31 @@ div.portfolio >h2 {
 }
 div.info{
 
-	width: 290px;
+	/* width: 290px; */
 	padding: 10px;
 	text-align: right;
 }
 .flex-container3{
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content:center;
+    -webkit-justify-content:space-around;
+    justify-content:space-around;
     width: 100%;
     height: ;
     background-color:;
+    padding-bottom: 45px;
 
   
     
 }
 
 
-.flex-item3#empty,.flex-item4#empty:empty{
+.flex-item3#empty,.flex-item4#empty{
 	
 	background-color: white;
-	width:290px;
-
+	width:28%;
+	border:black solid 1px;
+	visibility: hidden;
 }
 
 .line_2,.line_3, .line_4, .line_5{
@@ -569,4 +450,154 @@ div.info{
     height: ;
     background-color:;
     padding-bottom: 45px;
+}
+/*zolte kolko z napisem*/
+#zolty_napis {
+	background-image: url(about_us_5.png);
+	width:162px;
+	height: 162px;
+	background-position: center;
+	background-repeat: no-repeat;
+} /*kolumna ma tlo-obrazek (zolte kolko)*/
+
+ h3#circle {
+   
+ 
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+} /*margin auto- wysrodkuje w poziomie*/
+
+#zloty_napis > img {
+
+	width: 162px;
+	height: 162px;
+}
+/*for 980px or less*/
+
+/* @media screen and (max-width: 600px) {
+
+
+
+	body {
+
+		font-size: 12px;
+
+	} */
+/*zamienic wszystkie fonty*/
+	/* .services h1 {
+
+		font-size: 15px;
+
+	}
+
+
+
+	.services h2 {
+
+		font-size: 14px;
+	}
+
+	.services h3 {
+
+		font-size: 13px;
+	}
+
+	.header h1{
+
+		font-size: 15px;
+
+	}
+
+	.header h2{
+
+		font-size: 14px;
+
+	}
+
+	.header h3{
+
+		font-size: 13px;
+
+	}
+
+
+	.portfolio h1{
+
+		font-size: 15px;
+
+	}
+
+
+	.portfolio h2{
+
+		font-size: 14px;
+
+	}
+
+
+	.portfolio h3{
+
+		font-size: 13px;
+
+		}
+
+	.about_us  h1{
+
+		font-size: 15px;
+
+	}
+
+
+	.about_us h2{
+
+		font-size: 14px;
+
+	}
+
+
+	.about_us h3{
+
+		font-size: 13px;
+
+		}
+	
+	} */
+	
+	@media screen and (max-width: 600px) {
+
+	.flex-container3,.line_2,.line_3, .line_4, .line_5, #portfolio{
+
+
+		display: flex;
+		display: -webkit-flex;
+	    display: flex;
+	    -webkit-justify-content: center;
+	    justify-content:center;
+	    width: 100%;
+	    height: ;
+	    background-color:;
+	    padding-bottom: 45px;
+	    flex-direction: column;
+	    align-items: center;
+	    
+	}
+
+	body {
+
+		width: 100%;
+	} /*tlo zrobilo sie mniejsze niz row z obrazkami, dlatego zrobiłam na caly ekran*/
+
+}
+
+
+
+@media screen and (max-width: 1500px) {
+		
+	body {
+		width: 100%;
+	}/*tlo zrobilo sie mniejsze niz row z obrazkami, dlatego zrobiłam na caly ekran*/
+
 }
