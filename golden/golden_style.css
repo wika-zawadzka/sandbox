@@ -565,22 +565,33 @@ div.amazing_team>h2 {
 	margin-bottom: 120px;
 }
 
+			/* CONTACT US */
+
+.contact_us {
+
+	/* display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: ;
+    background-color:white;
+    padding-bottom: 45px;
+    padding-top: 0px; */
+   
+}
 
 
 			/* Logos */
 
 .logos {
 
-		display: flex;
-		display: -webkit-flex;
-	    display: flex;
-	    -webkit-justify-content:center ;
-	    justify-content:center;
-	    width: auto;
-	    height: ;
-	    
-	    flex-direction:row;
-	    align-items: center;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 100%;
+		/* margin: 0 auto; */
 
 
 }
@@ -595,6 +606,82 @@ div.img {
 	margin-top: 60px;=
 	margin-bottom: 60px;
 }
+
+
+
+
+.text {
+
+	
+    width: 100%;
+	background-image: url("contact_us_tlo.jpg");
+	background-size: 100%;
+	padding-bottom: 115px;
+}
+
+.text h1 {
+
+	font-family:Helvetica;
+	font-weight: bold;
+	color:white;
+	font-size: 38px;
+	text-align: center;
+	margin-top: 108px;
+}
+
+.text h2 {
+
+	font-family: "Myriad Pro";
+	font-style: italic;
+	color:#85888C;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 27px;
+}
+
+
+#form {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:center;
+    justify-content: center;
+    width: 100%;
+	margin:0 auto;
+}
+
+
+.flex-item6 {
+
+
+	margin: 50px 20px;
+}
+
+
+#button p {
+
+text-align:  center;
+
+
+}
+
+#przycisk {
+
+	background-color: #fed136;
+	width: 240px;
+	height: 65px;
+	color: white;
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	border-radius: 3px;
+	border-color: #FFCC33;
+	font-family:Helvetica;
+	font-weight: bold;
+	color:white;
+	
+	cursor: pointer;
+}
+
+
 
 
 
