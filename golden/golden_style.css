@@ -524,6 +524,7 @@ div.amazing_team {
 	color:black;
 	font-size: 38px;
 	text-align: center;
+	padding-top: 120px;
 
 	
 }
@@ -636,7 +637,7 @@ div.img {
 	color:white;
 	font-size: 38px;
 	text-align: center;
-	margin-top: 108px;
+	padding-top: 120px;
 }
 
 .text h2 {
@@ -694,10 +695,38 @@ text-align:  center;
 
 
 
+.button_up {
+
+	
+	
+	color: white;
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	text-align: center;
+	border-radius: 3px;
+	
+	font-family:Helvetica;
+	font-weight: bold;
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+	position: fixed;
+	left: 90%;
+	top: 90%;
+}
 
 
+.button_up> a {
 
-
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	text-align: center;
+	background-color: black;
+	font-family:Helvetica;
+	font-weight: bold;
+	color:white;
+	text-decoration: none;
+}
 
 
 
